@@ -1,0 +1,19 @@
+{
+  "name": "trade-desk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Deriv bot trade analytics dashboard — self-hosted auth and Postgres, no Supabase.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cookie-parser": "^1.4.6"
+  }
+}
